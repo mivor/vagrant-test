@@ -1,0 +1,29 @@
+apache
+2.2.23
+php
+5.2.17
+mysql
+5.0.96-community
+phpmyadmin
+4.0.5
+
+replace
+PS1='${debian_chroot:+($debian_chroot)}\
+[\033[36m\]\u\[\033[00m\]:\[\033[33m\]
+\w\[\033[00m\]\$ '
+
+rep-regex
+\[\\033\[36m\\]\\u\\\[\\033\[00m\\]:\\\[\\033\[33m\\]
+
+original
+PS1='${debian_chroot:+($debian_chroot)}\
+[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]
+\w\[\033[00m\]\$ '
+
+regex
+\[\\033\[01;32m\\]\\u@\\h\\\[\\033\[00m\\]:\\\[\\033\[01;34m\\]
+
+
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
